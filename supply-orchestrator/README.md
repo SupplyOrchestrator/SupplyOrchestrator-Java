@@ -112,7 +112,7 @@ Below are the primary commands supported by Supply Orchestrator, grouped by thei
 ├── data/                  # Persistent JSON storage  
 ├── lib/                   # Third-party dependencies (Jackson, JUnit)  
 ├── src/  
-│   └── logisticsapp/  
+│   └── supplyorchestrator/  
 │       ├── Startup.java           # App entry point  
 │       ├── commands/              # All CLI commands  
 │       │   ├── assign/            # Assign trucks & packages  
