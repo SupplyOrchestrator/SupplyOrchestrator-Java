@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
+.DS_Store
+Icon?
+
 * text=auto

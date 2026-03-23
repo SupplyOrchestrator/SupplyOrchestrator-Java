@@ -1,7 +1,6 @@
-package logisticsapp.commands;
+package logisticsapp.commands.changestate;
 
 import logisticsapp.commands.contracts.Command;
-import logisticsapp.core.contracts.repositories.DeliveryPackageRepository;
 import logisticsapp.core.enums.State;
 import logisticsapp.core.services.ChangeStateService;
 import logisticsapp.models.contracts.DeliveryPackage;

@@ -1,26 +1,22 @@
-```text
+<div align="center">
 
-  {---------}         {---------}  
- {           }       {           } 
- |[##]----- {---------} -----[##]| 
- |******** {           } ********| 
-[|        |[##]-----[##]|        |]
-[|____    |*************|    ____|]
- |____}-$[|             |]$-{____| 
- |###|_{_[|____     ____|]_}_|###| 
- [___|____|____}-$-{____|____|___] 
- |___|    |###|_{_}_|###|    |___| 
-          [___|_____|___]          
-          |___|     |___|          
-                                                         
-```
-# Logistics App
+<img src="data/logo.png" width="220" alt="Supply Orchestrator Logo"/>
 
-**Logistics App** is a comprehensive Java-based logistics management system designed to streamline delivery operations. It enables the creation, planning, assignment, and tracking of customers, packages, trucks, and delivery routes through a clean and simple command-line interface.
+<h1>Supply Orchestrator</h1>
 
+<p>
+A <strong>Java-based logistics management system</strong> designed to streamline delivery operations.<br/>
+It enables creation, planning, assignment, and tracking of customers, packages, trucks, and routes through a clean CLI.
+</p>
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=6DB33F&center=true&vCenter=true&width=600&lines=Java+Logistics+System;Route+Planning+%26+Optimization;Fleet+%26+Delivery+Tracking;Structured+OOP+Architecture" />
 
+[![Java](https://img.shields.io/badge/Java-11+-555555?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=ED8B00)](#)
+[![CLI](https://img.shields.io/badge/Interface-CLI-555555?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=4EAA25)](#)
 
+</div>
+
+---
 ## Features
 
 - **User-friendly CLI:** Manage all logistics operations through intuitive textual commands.
@@ -32,13 +28,21 @@
 - **Data Persistence:** Save and load logistics history.
 - **Comprehensive Info Display:** Show all entities or detailed information for each.
 
+---
+## Key Concepts
 
+- **Command Pattern:** Each CLI operation is encapsulated as a command class.
+- **Layered Architecture:** Separation between commands, core logic, and models.
+- **State Management:** Packages transition through defined delivery states.
+- **Data Persistence:** JSON-based storage using Jackson.
+
+---
 ## Tech Stack
 
 - **Language:** Java 11+
 - **Libraries:** [Jackson](https://github.com/FasterXML/jackson) for JSON parsing
 
-
+---
 ## Installation
 
 Prerequisites
@@ -49,16 +53,18 @@ Prerequisites
 Install my-project with git clone
 
 ```bash
-  git clone https://github.com/ivelinyanev/logistic-app.git
-  cd logistic-app
+git clone https://github.com/SupplyOrchestrator/SupplyOrchestrator-Java.git
+cd SupplyOrchestrator-Java/supply-orchestrator
 ```
+
+---
 ## Command-Line Interface (CLI) Usage
 
 Interact with the application by typing commands in the console. Each command typically consists of a command name followed by parameters.
 
 ### Command Reference
 
-Below are the primary commands supported by LogisticApp, grouped by their functionality:
+Below are the primary commands supported by Supply Orchestrator, grouped by their functionality:
 
 #### Creation Commands
 
@@ -98,6 +104,7 @@ Below are the primary commands supported by LogisticApp, grouped by their functi
 | `SHOWALLTRUCKS`              | List all trucks                       | `SHOWALLTRUCKS`                                                   |
 | `SHOWALLROUTES`              | List all routes                       | `SHOWALLROUTES`                                                   |
 
+---
 ## 📁 Project Structure
 
 ```text
@@ -112,7 +119,7 @@ Below are the primary commands supported by LogisticApp, grouped by their functi
 │       │   ├── create/            # Create customers, trucks, etc.  
 │       │   ├── enums/             # CommandType + TransferType  
 │       │   ├── saveload/          # Save/load to JSON  
-│       │   └── show/              # Show info commands
+│       │   ├── show/              # Show info commands
 │       │   └── changestate/       # Change state of packages
 │       ├── core/                  # Engine, services, repositories  
 │       ├── models/                # Domain models + DTOs  
@@ -120,13 +127,15 @@ Below are the primary commands supported by LogisticApp, grouped by their functi
 ├── tests/                         # JUnit tests  
 └── README.md                      # You’re reading it!  
 ```
+
+---
 ## Authors
 
 - [@todorkrushkov](https://github.com/todorkrushkov)
 
 - [@ivelinyanev](https://github.com/ivelinyanev)
 
-- [@Binev7](https://github.com/ivelinyanev)
+- [@Binev7](https://github.com/binev7)
 ## License
 
 This project is under the [MIT License](https://choosealicense.com/licenses/mit/).

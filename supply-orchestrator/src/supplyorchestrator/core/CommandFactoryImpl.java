@@ -1,6 +1,6 @@
 package logisticsapp.core;
 
-import logisticsapp.commands.ChangeStateCommand;
+import logisticsapp.commands.changestate.ChangeStateCommand;
 import logisticsapp.commands.assign.AssignTruckCommand;
 import logisticsapp.commands.contracts.Command;
 import logisticsapp.commands.create.*;
