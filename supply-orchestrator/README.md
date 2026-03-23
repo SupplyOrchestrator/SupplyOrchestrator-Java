@@ -68,13 +68,13 @@ Below are the primary commands supported by Supply Orchestrator, grouped by thei
 
 #### Creation Commands
 
-| Command                  | Description                               | Example Usage                                                     |
-|--------------------------|-------------------------------------------|-------------------------------------------------------------------|
-| `CREATECUSTOMER`         | Create a new customer                     | `CREATECUSTOMER <firstName> <lastName> <phoneNumber>`                                   |
-| `CREATEPACKAGE`          | Create a new delivery package             | `CREATEPACKAGE <senderPhone> <receiverPhone> <weight> <startLocation> <endLocation>` |
-| `CREATELOCATION`         | Create a new location                     | `CREATELOCATION <city>`                                           |
-| `CREATEROUTE`            | Create a new route                        | `CREATEROUTE <locationId1> <locationId2> ...`                     |
-| `CREATETRUCK`            | Create a new truck                        | `CREATETRUCK <model> <capacity> <range>`        |
+| Command          | Description                   | Example Usage                                                                        |
+|------------------|-------------------------------|--------------------------------------------------------------------------------------|
+| `CREATECUSTOMER` | Create a new customer         | `CREATECUSTOMER <firstName> <lastName> <phoneNumber>`                                |
+| `CREATEPACKAGE`  | Create a new delivery package | `CREATEPACKAGE <senderPhone> <receiverPhone> <weight> <startLocation> <endLocation>` |
+| `CREATELOCATION` | Create a new location         | `CREATELOCATION <city>`                                                              |
+| `CREATEROUTE`    | Create a new route            | `CREATEROUTE <locationId1> <locationId2> ...`                                        |
+| `CREATETRUCK`    | Create a new truck            | `CREATETRUCK <model> <capacity> <range>`                                             |
 
 #### Assignment and State Commands
 
@@ -86,23 +86,23 @@ Below are the primary commands supported by Supply Orchestrator, grouped by thei
 
 #### Data Persistence
 
-| Command                  | Description                               | Example Usage                                                     |
-|--------------------------|-------------------------------------------|-------------------------------------------------------------------|
-| `SAVEHISTORY`            | Save the current state/history (happens automatically)           | `SAVEHISTORY `                                          |
-| `LOADHISTORY`            | Load state/history from a file   (happens automatically)         | `LOADHISTORY `                                          |
+| Command       | Description                                              | Example Usage  |
+|---------------|----------------------------------------------------------|----------------|
+| `SAVEHISTORY` | Save the current state/history (happens automatically)   | `SAVEHISTORY ` |
+| `LOADHISTORY` | Load state/history from a file   (happens automatically) | `LOADHISTORY ` |
 
 #### Information and Display Commands
 
-| Command                      | Description                           | Example Usage                                                     |
-|------------------------------|---------------------------------------|-------------------------------------------------------------------|
-| `SHOWCUSTOMERINFO`           | Show detailed info for a customer     | `SHOWCUSTOMERINFO <phoneNumber> <transferType>`                                   |
-| `SHOWDELIVERYPACKAGEINFO`    | Show info for a delivery package      | `SHOWDELIVERYPACKAGEINFO <packageId>`                             |
-| `SHOWTRUCKINFO`              | Show info for a truck                 | `SHOWTRUCKINFO <truckId>`                                         |
-| `SHOWROUTEINFO`              | Show info for a route                 | `SHOWROUTEINFO <routeId>`                                         |
-| `SHOWALLCUSTOMERS`           | List all customers                    | `SHOWALLCUSTOMERS`                                                |
-| `SHOWALLDELIVERYPACKAGES`    | List all delivery packages            | `SHOWALLDELIVERYPACKAGES`                                         |
-| `SHOWALLTRUCKS`              | List all trucks                       | `SHOWALLTRUCKS`                                                   |
-| `SHOWALLROUTES`              | List all routes                       | `SHOWALLROUTES`                                                   |
+| Command                   | Description                       | Example Usage                                   |
+|---------------------------|-----------------------------------|-------------------------------------------------|
+| `SHOWCUSTOMERINFO`        | Show detailed info for a customer | `SHOWCUSTOMERINFO <phoneNumber> <transferType>` |
+| `SHOWDELIVERYPACKAGEINFO` | Show info for a delivery package  | `SHOWDELIVERYPACKAGEINFO <packageId>`           |
+| `SHOWTRUCKINFO`           | Show info for a truck             | `SHOWTRUCKINFO <truckId>`                       |
+| `SHOWROUTEINFO`           | Show info for a route             | `SHOWROUTEINFO <routeId>`                       |
+| `SHOWALLCUSTOMERS`        | List all customers                | `SHOWALLCUSTOMERS`                              |
+| `SHOWALLDELIVERYPACKAGES` | List all delivery packages        | `SHOWALLDELIVERYPACKAGES`                       |
+| `SHOWALLTRUCKS`           | List all trucks                   | `SHOWALLTRUCKS`                                 |
+| `SHOWALLROUTES`           | List all routes                   | `SHOWALLROUTES`                                 |
 
 ---
 ## 📁 Project Structure
