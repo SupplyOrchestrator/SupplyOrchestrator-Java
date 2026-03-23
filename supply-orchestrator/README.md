@@ -9,7 +9,7 @@ A <strong>Java-based logistics management system</strong> designed to streamline
 It enables creation, planning, assignment, and tracking of customers, packages, trucks, and routes through a clean CLI.
 </p>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=6DB33F&center=true&vCenter=true&width=600&lines=Java+Logistics+System;Route+Planning+%26+Optimization;Fleet+%26+Delivery+Tracking;Structured+OOP+Architecture" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=ED8B00&center=true&vCenter=true&width=600&lines=Java+Logistics+System;Route+Planning+%26+Optimization;Fleet+%26+Delivery+Tracking;Structured+OOP+Architecture" />
 
 [![Java](https://img.shields.io/badge/Java-11+-555555?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=ED8B00)](#)
 [![CLI](https://img.shields.io/badge/Interface-CLI-555555?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=4EAA25)](#)
@@ -140,17 +140,6 @@ Below are the primary commands supported by Supply Orchestrator, grouped by thei
 
 This project is under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
 ## Feedback
 
 If you have any feedback, please reach out to us at todorkrushkov.work@gmail.com
-
