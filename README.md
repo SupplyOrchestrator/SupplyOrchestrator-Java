@@ -13,7 +13,7 @@ Both follow similar domain logic but differ in architecture, tooling, and design
 
 ## [Java Version](https://github.com/SupplyOrchestrator/SupplyOrchestrator-Java/tree/main/supply-orchestrator)
 
-<img src="data/project-preview-java.png" width="540"/>
+<img src="demo-assets/project-preview-java.png" width="540"/>
 
 ### Overview
 This version was developed as part of the **Telerik Academy Java program**.  
@@ -35,7 +35,7 @@ It focuses on building a clean, extensible backend system using modern Java prac
 
 ## [C++ Version](https://github.com/SupplyOrchestrator/SupplyOrchestrator-Cpp/tree/main/supply-orchestrator)
 
-<img src="data/project-preview-cpp.png" width="540"/>
+<img src="demo-assets/project-preview-cpp.png" width="540"/>
 
 ### Overview
 This version was developed as part of coursework at the **Technical University of Sofia**.
